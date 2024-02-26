@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    color: #353535;
+    font-family: monospace;
+    font-size: 10vw;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  html {
+    background: radial-gradient(68.34% 50% at 50% 50%, #2D9AFF 0%, #a5f1f7 0%, #A22DFF 100%);
+    height: 100vh;
+    padding: 50px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  html::after {
+    content: "the site you want to visit is not avalaible right now. Wait until friday to see it!\n";
+
+  }
+
+  
+  body {
+    display: none !important;
+  }
